@@ -138,14 +138,21 @@
 .links__list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
 
+.links__item {
+  margin-right: 7px;
+}
+
+.links__item:last-child {
+  margin-right: 0;
+}
+
 .links img {
   width: 36px;
-  margin-right: 7px;
   transition: opacity 0.2s ease;
 }
 
